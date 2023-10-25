@@ -7,7 +7,7 @@
     <title>Weather App</title>
   </head>
   <body>
-    <main>
+    <main class="section_padding">
       <div class="app">
         <div class="search">
           <input
@@ -20,13 +20,27 @@
           </button>
         </div>
         <div class="weather">
-          <img src="./assests/images/rain.png" alt="weather-rainy" />
+          <img
+            src="./assests/images/rain.png"
+            alt="weather-rainy"
+            class="weather-icon"
+          />
           <h2 class="temp">20°C</h2>
           <h3 class="city">New York</h3>
           <div class="details">
             <div class="col">
               <img src="./assests/images/humidity.png" alt="humidity" />
-              <p class="humidity"></p>
+              <div class="">
+                <p class="humidity">50%</p>
+                <p class>Humidity</p>
+              </div>
+            </div>
+            <div class="col">
+              <img src="./assests/images/wind.png" alt="wind" />
+              <div class="">
+                <p class="wind">15 Km/h</p>
+                <p class>Wind</p>
+              </div>
             </div>
           </div>
         </div>
